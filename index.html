@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>JEETub</title>
+        <link rel="stylesheet" href="./style.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+        <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <header>
+            <div class="logo-cont unselectable" title="JEETub Home Page">
+                <div class="logo-bg ext-link" onclick="redirect('.')">
+                    <div class="logo">
+                        <i class="fa-solid fa-play logo-triangle"></i>
+                    </div>
+                    <div class="logo-text">JEETub</div>
+                </div>
+            </div>
+            <div class="search-bar-cont">
+                <div class="search-bar">
+                    <input class="search" id="search-bar" placeholder="Search...">
+                    <div class="search-button ext-link" title="Search" onclick="searchQuery()"><i class="fa-solid fa-magnifying-glass"></i></div>
+                </div>
+            </div>
+            <div class="profile-cont unselectable">
+                <a href="https://www.youtube.com/channel/UC13pF_4bFjHsWH895mXQEyQ" id="profile-pic"><div class="profile"></div></a>
+            </div>
+        </header>
+        <div class="main-body">
+            <div class="side-menu unselectable">
+                <div class="menu-list">
+                    <div class="menu-item" onclick="redirect('.')"><div class="list-text"><i class="fa-solid fa-house"></i>&ThickSpace; Home</div></div>
+                    <div class="menu-item" onclick="alert('We became lazyy')"></div>
+                    <div class="menu-item" onclick="alert('Cumming Soon')"></div>
+                </div>
+            </div>
+            <div class="content" id="content"></div>
+        </div>
+        <div class="popup-screen" id="popup-screen">
+            <div class="popup-background" onclick="popupScreen.style.display = 'none';"></div>
+            <div class="video-container">
+                <iframe id="video-player" width="100%" height="100%" src="" title="YouTube Video Player" frameborder="0" allow="Accelerometer; Autoplay; Clipboard-Write; Encrypted-Media; Gyroscope; Picture-In-Picture; Web-Share" style="position: relative; margin: 2% 2%; border-radius: 15px; aspect-ratio: 16/9; max-height: 96%; max-width: 96%;" allowfullscreen></Iframe>
+            </div>
+        </div>
+    </body>
+    <script src="./script.js"></script>
+</html>
