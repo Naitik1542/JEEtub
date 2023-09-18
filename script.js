@@ -24,6 +24,18 @@ videoList = [
         url: "https://Www.youtube.com/embed/6g3XQwLA_yE",
         thumbUrl: "https://i.ytimg.com/vi/6g3XQwLA_yE/hq720.jpg"
     },
+
+    {
+        title: "Day 1",
+        url: "https://www.youtube.com/embed/QXW9sZcLfx8?si=rbEshmrD9Y5bD27Y",
+        thumbUrl: "https://i9.ytimg.com/vi/QXW9sZcLfx8/mqdefault.jpg?v=650869c0&sqp=CPjZoagG&rs=AOn4CLBAU5i2TEOhJF9ZX5TtCCxIKzVzCA"
+    },
+
+    {
+        title: "Day 3",
+        url: "https://www.youtube.com/embed/r-JuE4abQNg?si=hZiAI-JMpffmBAIP",
+        thumbUrl: "https://i9.ytimg.com/vi/r-JuE4abQNg/mqdefault.jpg?v=650869fe&sqp=CPjZoagG&rs=AOn4CLAk0c4P9Wtd3elq_glLODSxjyYiZw"
+    },
 ]
 
 const defaultVideoCardNumber = 9
